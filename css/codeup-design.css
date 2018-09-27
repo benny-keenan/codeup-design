@@ -34,7 +34,38 @@ h1, h2 {
 .blue {
     background: #00aba9;
 }
+.circle-small {
+    width: 188px;
+    height: 188px;
+    border-radius: 100px;
+    text-align: center;
+    line-height: 172px;
+    margin: 0 auto 20px;
+    color: #fff;
+    border: 10px solid #fff;
+}
+
+.red-small {
+    background: #e6563b;
+}
+
+.orange-small {
+    background: #eb9d3a;
+}
+
+.green-small {
+    background: #7cb06c;
+}
+
+.blue-small {
+    background: #00aba9;
+}
 
 h2 {
     mso-font-width: 10%;
+}
+.img {
+    border: 1px solid #e6e6e6;
+    border-radius: 4px;
+    padding: 5px;
 }
