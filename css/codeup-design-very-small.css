@@ -8,6 +8,19 @@ html * {
 h1, h2 {
     font-family: 'Anton', sans-serif;
 }
+
+.abel {
+    font-family: 'Abel', sans-serif;
+}
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 105px;
+    height: 105px;
+    text-align: center;
+}
+
 .circle {
     width: 188px;
     height: 188px;
@@ -35,11 +48,11 @@ h1, h2 {
     background: #00aba9;
 }
 .circle-small {
-    width: 188px;
-    height: 188px;
+    width: 98px;
+    height: 98px;
     border-radius: 100px;
     text-align: center;
-    line-height: 172px;
+    line-height: 86px;
     margin: 0 auto 20px;
     color: #fff;
     border: 10px solid #fff;
