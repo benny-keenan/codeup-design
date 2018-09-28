@@ -8,23 +8,25 @@
             <link rel="stylesheet" href="css/codeup-design-very-small.css">
     </head>
     <body>
+        <!-- Outside container holding everything in -->
         <div class="container">
             <!-- Nav bar -->
-            <div class="row"> <!--worked on containers -->
+            <div class="row">
                 <div class="col-xl">
                 <nav class="navbar justify-content-center navbar-expand-xl navbar-light bg-white abel">
-
-                    <a class="navbar-brand" href="#">
+                    <div class="col">
+                        <!-- codeup logo -->
+                        <a class="navbar-brand" href="#">
                         <img src="img/logo.jpg" class="logo" alt="Codeup Logo">
                     </a>
-
-                    <a class="navbar-brand align-center" href="#">codeup design</a>
+                    <!-- codeup design text -->
+                    <a class="navbar-brand align-center" href="#"><h3>codeup design</h3></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-
+                </div>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mr-auto">
+                        <ul class="navbar-nav">
                             <li class="nav-item active">
                                 <a class="nav-link" href="#">SERVICES <span class="sr-only">(current)</span></a>
                             </li>
@@ -44,13 +46,13 @@
             </div> <!-- end of nav bar -->
 
             <div class="row">
-                <div class="col-sm col-xl">
+                <div class="col-sm-12 col-xl-12 mb-4">
                     <h1 class="text-center">VISUAL DESIGN & WEB DEVELOPMENT</h1>
                 </div>
             </div>
 
             <div class="row">
-                <div class="col-sm col-xl">
+                <div class="col-sm-12 col-xl-12 mb-4">
                     <h2 class="text-center">FROM PARK CITY, UTAH</h2>
                 </div>
             </div>
@@ -71,38 +73,40 @@
                     <h2 class="circle blue">HOST</h2>
                 </div>
             </div>
-
-            <div>
-                <hr>
-            </div>
-         <section>
-             <div class="row">
-                 <div class="col-sm">
-                     <img src="img/apple-ipad.jpg" class="img-fluid img" alt="responsive image">
-                     <div class="abel">FEATURED PROJECT<h2 class="circle-small red-small">DESIGN</h2></div>
-                </div>
-            </div>
+            <!-- horizontal line -->
             <div class="row">
                 <div class="col-sm">
-                     <img src="img/macbook.jpg" class="img-fluid img" alt="responsive image">
-                     <div class="abel">FEATURED PROJECT</div>
+                    <div>
+                        <hr class="m">
+                    </div>
                 </div>
-             </div>
+            </div>
+
              <div class="row">
-                <div class="col-sm">
-                     <img src="img/man.jpg" class="img-fluid img" alt="responsive image">
-                     <div class="abel">FEATURED PROJECT</div>
-                </div>
-             </div>
-             <div class="row">
-                 <div class="col-sm">
-                     <img src="img/security.jpg" class="img-fluid img" alt="responsive image">
-                     <div class="abel">FEATURED PROJECT</div>
-                 </div>
-             </div>
-        </section>
-        </div>
-        </div>
+                 <div class="col col-lg-10"> <!-- work on dimensions to make pics fit -->
+                     <div class="row">
+                         <div class="col col-lg-4>"> <!-- work on dimensions to make pics fit -->
+                             <img src="img/apple-ipad.jpg" class="img-fluid img" alt="responsive image">
+                             <p class="abel">FEATURED PROJECT</p>
+                         </div> <!-- close col -->
+                         <div class="col col-lg-4"> <!-- work on dimensions to make pics fit -->
+                             <img src="img/macbook.jpg" class="img-fluid img" alt="responsive image">
+                             <p class="abel">FEATURED PROJECT</p>
+                         </div>
+                     </div> <!-- Close row -->
+                     <div class="row">
+                        <div class="col col-lg-4"> <!-- work on dimensions to make pics fit -->
+                             <img src="img/man.jpg" class="img-fluid img" alt="responsive image">
+                             <div class="abel">FEATURED PROJECT</div>
+                        </div>
+                        <div class="col col-lg-"> <!-- work on dimensions to make pics fit -->
+                             <img src="img/security.jpg" class="img-fluid img" alt="responsive image">
+                             <div class="abel">FEATURED PROJECT</div>
+                        </div>
+                     </div> <!-- close row -->
+                </div> <!-- close outside column -->
+            </div> <!-- close outside row -->
+        </div> <!-- close container -->
             <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
             <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
