@@ -4,10 +4,9 @@ html * {
 
 .container {
     background-color: #f0f0f0;
-    flex: flex-direction: row-reverse;
     justify-content: center;
 }
-h1, h2 {
+h1, h2{
     font-family: 'Anton', sans-serif;
 }
 
@@ -34,6 +33,7 @@ h1, h2 {
     border: 10px solid #fff;
 }
 
+
 .red {
     background: #e6563b;
 }
@@ -49,6 +49,32 @@ h1, h2 {
 .blue {
     background: #00aba9;
 }
+.anton {
+    font-family: 'Anton', sans-serif;
+}
+
+.badge{
+    margin: .5em;
+    color: #000;
+}
+.pill-red {
+    background: #e6563b;
+
+}
+
+.pill-orange {
+    background: #eb9d3a;
+}
+
+.pill-green {
+    background: #7cb06c;
+
+}
+
+.pill-blue {
+    background: #00aba9;
+}
+
 .circle-small {
     width: 98px;
     height: 98px;
@@ -76,9 +102,6 @@ h1, h2 {
     background: #00aba9;
 }
 
-h2 {
-    mso-font-width: 10%;
-}
 .img {
     border: 1px solid #e6e6e6;
     border-radius: 4px;
