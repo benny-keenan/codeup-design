@@ -10,40 +10,66 @@
     <body>
         <!-- Outside container holding everything in -->
         <div class="container justify-content-md-center">
-            <!-- Nav bar -->
-            <div class="row">
-                <div class="col">
-                    <nav class="navbar justify-content-center navbar-expand-xl navbar-light bg-white abel">
-                        <div class="col">
-                            <!-- codeup logo -->
-                        <a class="navbar-brand" href="#">
-                            <img src="img/logo.jpg" class="logo" alt="Codeup Logo">
-                        </a>
-                        <!-- codeup design text -->
-                        <a class="navbar-brand align-center" href="#"><h3>codeup design</h3></a>
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                    </div>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav">
-                                <li class="nav-item active">
-                                    <a class="nav-link" href="#">SERVICES <span class="sr-only">(current)</span></a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">WORK</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">BLOG</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">CONTACT</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </nav>
+
+            <!--&lt;!&ndash; Nav bar &ndash;&gt;-->
+            <!--<div class="row">-->
+                <!--<div class="col">-->
+                    <!--<nav class="navbar justify-content-center navbar-expand-xl navbar-light bg-white abel">-->
+                        <!--<div class="col">-->
+                            <!--&lt;!&ndash; codeup logo &ndash;&gt;-->
+                        <!--<a class="navbar-brand" href="#">-->
+                            <!--<img src="img/logo.jpg" class="logo" alt="Codeup Logo">-->
+                        <!--</a>-->
+                        <!--&lt;!&ndash; codeup design text &ndash;&gt;-->
+                        <!--<a class="navbar-brand align-center" href="#"><h3>codeup design</h3></a>-->
+                            <!--<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">-->
+                                <!--<span class="navbar-toggler-icon"></span>-->
+                            <!--</button>-->
+                    <!--</div>-->
+                        <!--<div class="collapse navbar-collapse" id="navbarSupportedContent">-->
+                            <!--<ul class="navbar-nav">-->
+                                <!--<li class="nav-item active">-->
+                                    <!--<a class="nav-link" href="#">SERVICES <span class="sr-only">(current)</span></a>-->
+                                <!--</li>-->
+                                <!--<li class="nav-item">-->
+                                    <!--<a class="nav-link" href="#">WORK</a>-->
+                                <!--</li>-->
+                                <!--<li class="nav-item">-->
+                                    <!--<a class="nav-link" href="#">BLOG</a>-->
+                                <!--</li>-->
+                                <!--<li class="nav-item">-->
+                                    <!--<a class="nav-link" href="#">CONTACT</a>-->
+                                <!--</li>-->
+                            <!--</ul>-->
+                        <!--</div>-->
+                    <!--</nav>-->
+                <!--</div>-->
+            <!--</div> &lt;!&ndash; end of nav bar &ndash;&gt;-->
+            <nav class="navbar navbar-light">
+                <div class="container-fluid">
+                    <ul class="nav w-100 justify-content-center">
+                        <li class="order-md-3 order-lg-0 mr-lg-auto">
+                            <a href="#" class="navbar-brand d-block w-100 mb-2 m-md-0 text-center">
+                                <img class="" width="105px" src="img/logo.jpg" alt="Codeup Design logo">
+                                <div class="brand-name d-block d-lg-inline text-center w-100">codeup design</div>
+                            </a>
+                        </li>
+                        <div class="w-100 d-md-none"></div><!-- used to force line break in flex items for mobile -->
+                        <li class="nav-item order-md-1 order-lg-1 mt-md-5">
+                            <a class="nav-link text-uppercase px-2 px-md-3" href="">Services</a>
+                        </li>
+                        <li class="nav-item order-md-2 order-lg-2 mt-md-5">
+                            <a class="nav-link text-uppercase px-2 pl-md-3 pr-md-0 px-lg-3" href="">Work</a>
+                        </li>
+                        <li class="nav-item order-md-4 order-lg-3 mt-md-5">
+                            <a class="nav-link text-uppercase px-2 pl-md-0 pr-md-3 px-lg-3" href="">Blog</a>
+                        </li>
+                        <li class="nav-item order-md-5 order-lg-4 mt-md-5">
+                            <a class="nav-link text-uppercase px-2 px-md-3" href="">Contact</a>
+                        </li>
+                    </ul>
                 </div>
-            </div> <!-- end of nav bar -->
+            </nav>
 
             <div class="row">
                 <div class="col-sm-12 col-xl-12 mb-4">
@@ -102,30 +128,52 @@
             <div class="row">
                  <div class="col-12 col-md-6"> <!-- work on dimensions to make pics fit -->
                      <div class="row">
-                         <div class="col-12 col-md-4"> <!-- work on dimensions to make pics fit -->
-                             <img src="img/apple-ipad.jpg" class="img-fluid" alt="responsive image">
-                             <p class="abel">
+                         <div class="col-12 col-md-6"> <!-- work on dimensions to make pics fit -->
+                             <img src="img/apple-ipad.jpg" class="img-fluid mb-2" alt="responsive image">
+                             <div class="abel">
                                  FEATURED PROJECT
-                             </p>
+                             <div class="float-right">
+                                 <span class="anton"><a href="#" class="d-inline badge badge-pill pill-red">D</a></span>
+                                 <span class="anton"><a href="#" class="d-inline badge badge-pill pill-orange">D</a></span>
+                                 <span class="anton"><a href="#" class="d-inline badge badge-pill pill-green">S</a></span>
+                                 <span class="anton"><a href="#" class="d-inline badge badge-pill pill-blue">H</a></span>
+                             </div>
+                             </div>
                          </div> <!-- close col -->
-                         <div class="col-12 col-md-4"> <!-- work on dimensions to make pics fit -->
-                             <img src="img/macbook.jpg" class="img-fluid" alt="responsive image">
-                             <p class="abel">
+                         <div class="col-12 col-md-6"> <!-- work on dimensions to make pics fit -->
+                             <img src="img/macbook.jpg" class="img-fluid mb-2" alt="responsive image">
+                             <div class="abel">
                                  FEATURED PROJECT
-                             </p>
+                             <div class="float-right">
+                                 <span class="anton"><a href="#" class="d-inline badge badge-pill pill-red">D</a></span>
+                                 <span class="anton"><a href="#" class="d-inline badge badge-pill pill-orange">D</a></span>
+                                 <span class="anton"><a href="#" class="d-inline badge badge-pill pill-green">S</a></span>
+                                 <span class="anton"><a href="#" class="d-inline badge badge-pill pill-blue">H</a></span>
+                             </div>
                          </div>
                      </div> <!-- Close row -->
                      <div class="row">
-                        <div class="col-12 col-md-4"> <!-- work on dimensions to make pics fit -->
-                             <img src="img/man.jpg" class="img-fluid" alt="responsive image">
+                        <div class="col-12 col-md-6"> <!-- work on dimensions to make pics fit -->
+                             <img src="img/man.jpg" class="img-fluid mb-2" alt="responsive image">
                              <div class="abel">
                                  FEATURED PROJECT
+                             <div class="float-right">
+                                 <span class="anton"><a href="#" class="d-inline badge badge-pill pill-red">D</a></span>
+                                 <span class="anton"><a href="#" class="d-inline badge badge-pill pill-orange">D</a></span>
+                                 <span class="anton"><a href="#" class="d-inline badge badge-pill pill-green">S</a></span>
+                                 <span class="anton"><a href="#" class="d-inline badge badge-pill pill-blue">H</a></span>
+                             </div>
                              </div>
                         </div>
-                        <div class="col-12 col-md-4"> <!-- work on dimensions to make pics fit -->
-                             <img src="img/security.jpg" class="img-fluid" alt="responsive image">
+                        <div class="col-12 col-md-6"> <!-- work on dimensions to make pics fit -->
+                             <img src="img/security.jpg" class="img-fluid mb-2" alt="responsive image">
                              <div class="abel">
                                  FEATURED PROJECT
+                             <div class="float-right">
+                                 <span class="anton"><a href="#" class="d-inline badge badge-pill pill-red">D</a></span>
+                                 <span class="anton"><a href="#" class="d-inline badge badge-pill pill-orange">D</a></span>
+                                 <span class="anton"><a href="#" class="d-inline badge badge-pill pill-green">S</a></span>
+                                 <span class="anton"><a href="#" class="d-inline badge badge-pill pill-blue">H</a></span>
                              </div>
                         </div>
                      </div> <!-- close row -->
@@ -155,7 +203,7 @@
                         </div>
                     </div>
                 </div>
-                </div>
+                </div> <!--test -->
             </div> <!-- close outside row -->
         </div> <!-- close container -->
             <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
