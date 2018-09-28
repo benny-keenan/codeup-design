@@ -7,9 +7,13 @@ html * {
     flex: flex-direction: row-reverse;
     justify-content: center;
 }
-h1, h2 {
+h1, h2, h5 {
     font-family: 'Anton', sans-serif;
 }
+/*.img h5 {*/
+    /*font-size: 26px;*/
+    /*vertical-align: top;*/
+/*}*/
 
 .abel {
     font-family: 'Abel', sans-serif;
@@ -76,11 +80,19 @@ h1, h2 {
     background: #00aba9;
 }
 
-h2 {
-    mso-font-width: 10%;
-}
+/*h2 {*/
+    /*mso-font-width: 10%;*/
+/*}*/
 .img {
     border: 1px solid #e6e6e6;
     border-radius: 4px;
     padding: 6px;
+    height: 120px;
+    width: 150px;
 }
+
+.img-small {
+    width: 55px;
+    height: 55px;
+}
+
