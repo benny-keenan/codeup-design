@@ -1,13 +1,15 @@
 html * {
     box-sizing: border-box;
 }
-
+.navbar {
+    height: 80px;
+    overflow: hidden;
+}
 .container {
     background-color: #f0f0f0;
-    justify-content: center;
 }
 
-h1, h2{
+h1, h2, .anton{
     font-family: 'Anton', sans-serif;
 }
 /*.img h5 {*/
@@ -18,24 +20,23 @@ h1, h2{
 .abel {
     font-family: 'Abel', sans-serif;
 }
-.logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 105px;
-    height: 105px;
-    text-align: center;
+li>a {
+    color: #000;
 }
+/*.logo {*/
+    /*overflow-wrap: inherit;*/
+/*}*/
 
 .circle {
-    width: 188px;
-    height: 188px;
-    border-radius: 100px;
+    width: 105px;
+    height: 105px;
+    border-radius: 50px;
     text-align: center;
-    line-height: 172px;
+    line-height: 90px;
     margin: 0 auto 20px;
     color: #fff;
-    border: 10px solid #fff;
+    border: 5px solid #fff;
+    font-size: x-large;
 }
 
 
