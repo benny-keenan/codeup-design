@@ -8,8 +8,34 @@
             <link rel="stylesheet" href="css/codeup-design-very-small.css">
     </head>
     <body>
+    <div class="container justify-content-md-center pt-5">
+    <nav class="navbar navbar-light bg-white abel mb-5">
+        <div class="container-fluid">
+            <ul class="nav w-100 justify-content-center">
+                <li class="order-md-3 order-lg-0 mr-lg-auto">
+                    <a href="#" class="navbar-brand d-block w-100 mb-2 m-md-0 text-center">
+                        <img class="logo" width="105px" src="img/logo.jpg" alt="Codeup Design logo">
+                        <div class="brand-name d-block d-lg-inline text-center w-100">codeup design</div>
+                    </a>
+                </li>
+                <div class="w-100 d-md-none"></div><!-- used to force line break in flex items for mobile -->
+                <li class="nav-item order-md-1 order-lg-1 mt-md-5">
+                    <a class="nav-link text-uppercase px-2 px-md-3" href="">Services</a>
+                </li>
+                <li class="nav-item order-md-2 order-lg-2 mt-md-5">
+                    <a class="nav-link text-uppercase px-2 pl-md-3 pr-md-0 px-lg-3" href="">Work</a>
+                </li>
+                <li class="nav-item order-md-4 order-lg-3 mt-md-5">
+                    <a class="nav-link text-uppercase px-2 pl-md-0 pr-md-3 px-lg-3" href="">Blog</a>
+                </li>
+                <li class="nav-item order-md-5 order-lg-4 mt-md-5">
+                    <a class="nav-link text-uppercase px-2 px-md-3" href="">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
         <!-- Outside container holding everything in -->
-        <div class="container justify-content-md-center">
+
 
             <!--&lt;!&ndash; Nav bar &ndash;&gt;-->
             <!--<div class="row">-->
@@ -45,34 +71,10 @@
                     <!--</nav>-->
                 <!--</div>-->
             <!--</div> &lt;!&ndash; end of nav bar &ndash;&gt;-->
-            <nav class="navbar navbar-light">
-                <div class="container-fluid">
-                    <ul class="nav w-100 justify-content-center">
-                        <li class="order-md-3 order-lg-0 mr-lg-auto">
-                            <a href="#" class="navbar-brand d-block w-100 mb-2 m-md-0 text-center">
-                                <img class="" width="105px" src="img/logo.jpg" alt="Codeup Design logo">
-                                <div class="brand-name d-block d-lg-inline text-center w-100">codeup design</div>
-                            </a>
-                        </li>
-                        <div class="w-100 d-md-none"></div><!-- used to force line break in flex items for mobile -->
-                        <li class="nav-item order-md-1 order-lg-1 mt-md-5">
-                            <a class="nav-link text-uppercase px-2 px-md-3" href="">Services</a>
-                        </li>
-                        <li class="nav-item order-md-2 order-lg-2 mt-md-5">
-                            <a class="nav-link text-uppercase px-2 pl-md-3 pr-md-0 px-lg-3" href="">Work</a>
-                        </li>
-                        <li class="nav-item order-md-4 order-lg-3 mt-md-5">
-                            <a class="nav-link text-uppercase px-2 pl-md-0 pr-md-3 px-lg-3" href="">Blog</a>
-                        </li>
-                        <li class="nav-item order-md-5 order-lg-4 mt-md-5">
-                            <a class="nav-link text-uppercase px-2 px-md-3" href="">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+
 
             <div class="row">
-                <div class="col-sm-12 col-xl-12 mb-4">
+                <div class="col-sm-8 col-xl-12 mb-4">
                     <h1 class="text-center">VISUAL DESIGN & WEB DEVELOPMENT</h1>
                 </div>
             </div>
@@ -83,40 +85,38 @@
                 </div>
             </div>
             <!-- Start of circles -->
-            <div class="row">
-                <div class="col">
-                    <h2 class="circle red">DESIGN</h2>
+            <div class="row anton justify-content-center">
+                <div class="col col-md-2">
+                    <div class="circle red anton">DESIGN</div>
                 </div>
-                <div class="col">
-                    <h2 class="circle orange">DEVELOP</h2>
-                </div>
-
-                <div class="col">
-                    <h2 class="circle green">SUPPORT</h2>
+                <div class="col col-md-2">
+                    <div class="circle orange">DEVELOP</div>
                 </div>
 
-                <div class="col">
-                    <h2 class="circle blue">HOST</h2>
+                <div class="col col-md-2">
+                    <div class="circle green">SUPPORT</div>
+                </div>
+
+                <div class="col col-md-2">
+                    <div class="circle blue">HOST</div>
                 </div>
             </div>
             <!-- horizontal line -->
             <div class="row">
                 <div class="col-sm">
                     <div>
-                        <hr class="m">
+                        <hr class="mb-5">
                     </div>
                 </div>
             </div>
 
-            <!-- Selected Work text -->
-            <div class="row">
+            <!-- Selected Work/The Last text -->
+            <div class="row mb-3">
                 <div class="col col-sm-6">
                     <p class="abel">
                         SELECTED WORK
                     </p>
                 </div>
-                <!-- Selected Work text -->
-
                 <div class="col col-sm-4">
                     <p class="abel">
                         THE LAST
@@ -126,22 +126,22 @@
 
             <!-- Larger photos -->
             <div class="row">
-                 <div class="col-12 col-md-6"> <!-- work on dimensions to make pics fit -->
-                     <div class="row">
+                 <div class="col-12 col-md-8"> <!-- work on dimensions to make pics fit -->
+                     <div class="row justify-content-start pl-2 mt-4">
                          <div class="col-12 col-md-6"> <!-- work on dimensions to make pics fit -->
-                             <img src="img/apple-ipad.jpg" class="img-fluid mb-2" alt="responsive image">
+                             <img src="img/apple-ipad.jpg" class="img-fluid mb-2 ml-2" alt="responsive image">
                              <div class="abel">
                                  FEATURED PROJECT
                              <div class="float-right">
-                                 <span class="anton"><a href="#" class="d-inline badge badge-pill pill-red">D</a></span>
-                                 <span class="anton"><a href="#" class="d-inline badge badge-pill pill-orange">D</a></span>
-                                 <span class="anton"><a href="#" class="d-inline badge badge-pill pill-green">S</a></span>
-                                 <span class="anton"><a href="#" class="d-inline badge badge-pill pill-blue">H</a></span>
+                                 <span class="anton"><a href="#" class="d-inline badge badge-pill pill-red w-18px">D</a></span>
+                                 <span class="anton"><a href="#" class="d-inline badge badge-pill pill-orange w-18px">D</a></span>
+                                 <span class="anton"><a href="#" class="d-inline badge badge-pill pill-green w-18px">S</a></span>
+                                 <span class="anton"><a href="#" class="d-inline badge badge-pill pill-blue w-18px">H</a></span>
                              </div>
                              </div>
                          </div> <!-- close col -->
                          <div class="col-12 col-md-6"> <!-- work on dimensions to make pics fit -->
-                             <img src="img/macbook.jpg" class="img-fluid mb-2" alt="responsive image">
+                             <img src="img/macbook.jpg" class="img-fluid mb-2 ml-2" alt="responsive image">
                              <div class="abel">
                                  FEATURED PROJECT
                              <div class="float-right">
@@ -152,9 +152,9 @@
                              </div>
                          </div>
                      </div> <!-- Close row -->
-                     <div class="row">
+                     <div class="row justify-content-start pl-2 mt-4">
                         <div class="col-12 col-md-6"> <!-- work on dimensions to make pics fit -->
-                             <img src="img/man.jpg" class="img-fluid mb-2" alt="responsive image">
+                             <img src="img/man.jpg" class="img-fluid mb-2 ml-2" alt="responsive image">
                              <div class="abel">
                                  FEATURED PROJECT
                              <div class="float-right">
@@ -166,7 +166,7 @@
                              </div>
                         </div>
                         <div class="col-12 col-md-6"> <!-- work on dimensions to make pics fit -->
-                             <img src="img/security.jpg" class="img-fluid mb-2" alt="responsive image">
+                             <img src="img/security.jpg" class="img-fluid mb-2 ml-2" alt="responsive image">
                              <div class="abel">
                                  FEATURED PROJECT
                              <div class="float-right">
